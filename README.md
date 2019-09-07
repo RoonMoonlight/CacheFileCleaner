@@ -12,7 +12,7 @@ Please use this script ONLY ON CUSTOM FOLDER included in Team Fortress 2 Folder,
 
 Be sure to check out the improved Cache File Cleaner with GUI, SourceCC!
 https://github.com/depthbomb/SourceCC
-(Thank you to @depthbomb for improving my project!)
+(Many thanks to @depthbomb for improving my project!)
 
 Scripts made by:
 Ah_Roon
