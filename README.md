@@ -10,5 +10,9 @@ This batch file actually made for Team Fortress 2.
 Warning:
 Please use this script ONLY ON CUSTOM FOLDER included in Team Fortress 2 Folder, otherwise game might be unstable and you'll need to verify game integrity.
 
+Be sure to check out the improved Cache File Cleaner with GUI, SourceCC!
+https://github.com/depthbomb/SourceCC
+(Thank you to @depthbomb for improving my project!)
+
 Scripts made by:
 Ah_Roon
