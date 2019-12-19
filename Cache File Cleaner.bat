@@ -19,7 +19,7 @@ echo.
 call :colorPrint 0F "         Made by Ah_Roon / Mystic Prism Studio"
 echo.
 echo.
-call :colorPrint 0F "                                            v4.0"
+call :colorPrint 0F "                                            v4.1"
 echo.
 call :colorPrint 0F "=----------------------------------------------------="
 echo.
@@ -41,6 +41,7 @@ echo.
 IF EXIST "..\..\hl2.exe" (goto :CLEAN)
 IF EXIST "..\gameinfo.txt" (goto :CLEAN)
 IF EXIST "..\..\left4dead2.exe" (goto :CLEAN)
+IF EXIST "..\..\dayofinfamy.exe" (goto :CLEAN)
 goto :ADDON_FOLDER_CONFIRM
 :ADDON_FOLDER_CONFIRM
 echo.

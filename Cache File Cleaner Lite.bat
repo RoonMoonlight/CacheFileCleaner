@@ -6,7 +6,7 @@ echo                 Cache File Cleaner Lite
 echo.
 echo          Made by Ah_Roon / Mystic Prism Studio
 echo.
-echo                                             v4.0
+echo                                             v4.1
 echo.
 echo =----------------------------------------------------=
 echo.
@@ -21,6 +21,7 @@ echo Checking the Directory...
 IF EXIST "..\..\hl2.exe" (goto :CLEAN)
 IF EXIST "..\gameinfo.txt" (goto :CLEAN)
 IF EXIST "..\..\left4dead2.exe" (goto :CLEAN)
+IF EXIST "..\..\dayofinfamy.exe" (goto :CLEAN)
 goto :ADDON_FOLDER_CONFIRM
 :ADDON_FOLDER_CONFIRM
 echo =----------------------------------------------------=
