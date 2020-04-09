@@ -6,7 +6,7 @@ Are you tired of deleting cache file by yourself when using mods? Well, this bat
 
 Cache File Cleaner is a batch file that cleans the cache files from the custom/addon folder to resolve mod related issue(Especially sound mod).
 
-This project is Open Source, licensed with Apache License 2.0.
+This project is Open Source, licensed with MIT License.
 
 # Supported Games
 * Black Mesa (Not Tested)
@@ -36,6 +36,7 @@ This project is Open Source, licensed with Apache License 2.0.
 * DOTA Underlords
 * Artifact
 * Alien Swarm (Not Tested)
+* Half-Life: Alyx
 * GoldSrc Games
 * Source 2 Games
 * Source Games which doesn't support custom folder
