@@ -10,28 +10,26 @@ goto :launch
 @echo off
 cls
 echo.
-call :colorPrint 0F "=----------------------------------------------------="
+call :colorPrint 0F "=-------------------------------------------------------------="
 echo.
 echo.
-call :colorPrint 0E "                  Cache File Cleaner"
+call :colorPrint 0E "                  Cache File Cleaner v4.1.02"
 echo.
 echo.
-call :colorPrint 0F "         Made by Ah_Roon / Mystic Prism Studio"
+call :colorPrint 0F "   Created by Mystic Prism Studio and Community Contributors"
 echo.
 echo.
-call :colorPrint 0F "                                            v4.1"
-echo.
-call :colorPrint 0F "=----------------------------------------------------="
+call :colorPrint 0F "=-------------------------------------------------------------="
 echo.
 echo.
-call :colorPrint 0F "This project is licensed under Apache License 2.0."
+call :colorPrint 0F "This project is licensed under MIT License."
 echo.
-call :colorPrint 0F "More info can be found on https://www.apache.org/licenses/LICENSE-2.0."
+call :colorPrint 0F "More info can be found on https://mit-license.org/."
 echo.
 echo.
-call :colorPrint 0F "=----------------------------------------------------="
+call :colorPrint 0F "=-------------------------------------------------------------="
 echo.
-call :colorPrint 0E "                 Press any key"
+call :colorPrint 0E "                 Press any key to proceed"
 echo.
 
 timeout /t 5 >nul
@@ -42,13 +40,13 @@ IF EXIST "..\..\hl2.exe" (goto :CLEAN)
 IF EXIST "..\gameinfo.txt" (goto :CLEAN)
 IF EXIST "..\..\left4dead2.exe" (goto :CLEAN)
 IF EXIST "..\..\dayofinfamy.exe" (goto :CLEAN)
-goto :ADDON_FOLDER_CONFIRM
-:ADDON_FOLDER_CONFIRM
+goto :CONFIRM
+:CONFIRM
 echo.
 call :colorPrint 0F "=----------------------------------------------------="
 echo.
 echo.
-call :colorPrint 0C "                     ! WARNING !"
+call :colorPrint 0C "                     WARNING"
 echo.
 echo.
 call :colorPrint 0F "Cache File Cleaner has detected that you're running this file outside of custom/addons folder."
@@ -57,7 +55,7 @@ echo.
 call :colorPrint 0F "Cleaning cache files outside of custom/addons folder may cause instability."
 echo.
 echo.
-call :colorPrint 0F "I'm not responsible for any damage caused by instability."
+call :colorPrint 0F "We are not responsible for any damage/instability."
 echo.
 echo.
 call :colorPrint 0F "Do you still want to proceed anyway?"

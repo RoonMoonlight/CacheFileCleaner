@@ -1,20 +1,18 @@
 @echo off
 cls
-echo =----------------------------------------------------=
+echo =-------------------------------------------------------------=
 echo.
-echo                 Cache File Cleaner Lite
+echo               Cache File Cleaner Lite v4.1.02
 echo.
-echo          Made by Ah_Roon / Mystic Prism Studio
+echo   Created by Mystic Prism Studio and Community Contributors
 echo.
-echo                                             v4.1
+echo =-------------------------------------------------------------=
 echo.
-echo =----------------------------------------------------=
+echo This project is licensed under MIT License.
+echo More info can be found on https://mit-license.org/.
 echo.
-echo This project is licensed under Apache License 2.0.
-echo More info can be found on https://www.apache.org/licenses/LICENSE-2.0.
-echo.
-echo =----------------------------------------------------=
-echo                   Press any key
+echo =-------------------------------------------------------------=
+echo                   Press any key to proceed
 
 timeout /t 5 >nul
 echo Checking the Directory...
@@ -22,17 +20,17 @@ IF EXIST "..\..\hl2.exe" (goto :CLEAN)
 IF EXIST "..\gameinfo.txt" (goto :CLEAN)
 IF EXIST "..\..\left4dead2.exe" (goto :CLEAN)
 IF EXIST "..\..\dayofinfamy.exe" (goto :CLEAN)
-goto :ADDON_FOLDER_CONFIRM
-:ADDON_FOLDER_CONFIRM
+goto :CONFIRM
+:CONFIRM
 echo =----------------------------------------------------=
 echo.
-ECHO                      ! WARNING !
+ECHO                      WARNING
 echo.
 echo Cache File Cleaner has detected that you're running this file outside of custom/addons folder.
 echo.
 echo Cleaning cache files outside of custom/addons folder may cause instability.
 echo.
-echo I'm not responsible for any damage caused by instability.
+echo We are not responsible for any damage/instability.
 echo.
 echo Do you still want to proceed anyway?
 echo.
