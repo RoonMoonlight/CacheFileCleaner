@@ -8,38 +8,10 @@ Cache File Cleaner is a batch file that cleans the cache files from the custom/a
 
 This project is Open Source, licensed with MIT License.
 
-# Supported Games
-* Black Mesa (Not Tested)
-* Half-Life: Source (Need to create custom folder manually on hl1 folder)
-* Half-Life 2
-* Half-Life 2: Lost Coast
-* Half-Life 2: Episode One
-* Half-Life 2: Episode Two
-* Half-Life 2: MMod
-* MINERVA: Metastasis
-* Synergy
-* Obsidian Conflict (Not Tested)
-* Portal
-* Portal 2(Not Tested)
-* Team Fortress 2
-* Counter-Strike: Source
-* Day of Defeat: Source
-* Left 4 Dead
-* Left 4 Dead 2 (Put batch file on addons folder)
-* Insurgency (Not Tested)
-* Day of Infamy (Not Tested)
-
-# Unsupported Games
-* Counter-Strike Global Offensive
-* Half-Life: Alyx
-* DOTA 2
-* DOTA Underlords
-* Artifact
-* Alien Swarm (Not Tested)
-* Half-Life: Alyx
-* GoldSrc Games
-* Source 2 Games
-* Source Games which doesn't support custom folder
+# Features
+* Automated custom/addons folder directory check (If not user will be prompted to proceed removing cache file)
+* Cleans the cache file which was generated on custom folder for you
+* Supports any source engine games which supports custom folder (Source 2, GoldSrc Engine is unsupported)
  
 # WARNING:
 Cleaning cache files outside of custom/addons folder may cause instability.
